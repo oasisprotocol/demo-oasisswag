@@ -1,7 +1,7 @@
 {
-  "name": "oasisswag",
+  "name": "demo-oasisswag",
   "version": "1.0.0",
-  "description": "Dapp for getting Oasis swag at Consensus 2023",
+  "description": "dApp for getting Oasis swag at Consensus 2023",
   "scripts": {
     "lint": "prettier --cache --plugin-search-dir=. --check *.cjs test/**.ts scripts/**.ts contracts/**.sol && solhint contracts/**.sol",
     "format": "prettier --cache --plugin-search-dir=. --write *.cjs test/**.ts scripts/**.ts contracts/**.sol && solhint --fix contracts/**.sol",

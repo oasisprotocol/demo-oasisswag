@@ -1,6 +1,7 @@
 # Confidential Oasis Swag Wheel
 
-Random swag drawer/picker based on the user's Ethereum address.
+Random swag drawer/picker based on the user's Ethereum address. Uses Sapphire's
+random number generator for initial confidential seed.
 
 Demo: https://playground.oasis.io/oasisswag
 
@@ -17,7 +18,7 @@ To deploy backend on Sapphire Testnet and generate bindings for frontend:
 ```
 yarn
 yarn build
-PRIVATE_KEY=0xYOUR_KEY_HERE npx hardhat run scripts/deploy.ts  --network sapphire_testnet
+PRIVATE_KEY=0xYOUR_KEY_HERE npx hardhat run scripts/deploy.ts  --network sapphire-testnet
 ```
 
 To run the frontend locally:

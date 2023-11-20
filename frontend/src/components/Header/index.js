@@ -18,7 +18,7 @@ export const Header = () => {
     <header className={classes.header}>
       <div className={classes.logoContainer}>
         <img className={classes.logo} src={logo} alt="Logo"/>
-        <a className={classes.githubLink} target="_blank" rel="noopener noreferrer" href="https://github.com/oasisprotocol/playground/tree/main/oasisswag">
+        <a className={classes.githubLink} target="_blank" rel="noopener noreferrer" href="https://github.com/oasisprotocol/demo-oasisswag">
           <img src={githubLink} alt="GitHub source"/>
         </a>
       </div>
