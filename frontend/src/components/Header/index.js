@@ -1,5 +1,5 @@
 import classes from "./index.module.css"
-import logo from "../../images/logo.svg"
+import logo from "../../images/Network Logo White.svg"
 import githubLink from "./images/github-mark.svg"
 import wallet from "./images/wallet.svg"
 import {Button} from "../Button";
