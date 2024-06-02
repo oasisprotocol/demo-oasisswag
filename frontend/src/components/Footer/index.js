@@ -1,5 +1,5 @@
 import classes from "./index.module.css"
-import footerLogo from './images/footer-logo.svg'
+import footerLogo from './images/Network Logo Blue.svg'
 
 export const Footer = () => {
   return (
